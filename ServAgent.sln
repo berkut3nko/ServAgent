@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeechSynthesizer", "SpeechSynthesizer\SpeechSynthesizer.csproj", "{11C596EB-578A-499A-8E67-D731BD7ECAB6}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SpeechT5", "SpeechT5\SpeechT5.pyproj", "{DE392711-BB8A-4F55-A645-4F79C317CB77}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Automatic Speech Recognition", "w2v-xls-r-uk\Automatic Speech Recognition.pyproj", "{B6AD99E5-0D8E-40CC-B456-AC776F60F757}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "GenerativeModel", "GenerativeModel\GenerativeModel.pyproj", "{12160ADF-AD79-470D-9D4E-4EE68527564E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PunctuationRestoration", "PunctuationRestoration\PunctuationRestoration.pyproj", "{97AD9E59-ED31-46CD-8E1E-773D45BFB16C}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ServAgent", "RecognizeFormatAnswerTTS\ServAgent.pyproj", "{B0E37061-F459-487C-B14B-7F8177DC2CB8}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CompileModel", "CompileModel\CompileModel.pyproj", "{5D5ED5EE-AB99-4CE4-A689-48098D87BC76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11C596EB-578A-499A-8E67-D731BD7ECAB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C596EB-578A-499A-8E67-D731BD7ECAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C596EB-578A-499A-8E67-D731BD7ECAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C596EB-578A-499A-8E67-D731BD7ECAB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE392711-BB8A-4F55-A645-4F79C317CB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE392711-BB8A-4F55-A645-4F79C317CB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6AD99E5-0D8E-40CC-B456-AC776F60F757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6AD99E5-0D8E-40CC-B456-AC776F60F757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12160ADF-AD79-470D-9D4E-4EE68527564E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12160ADF-AD79-470D-9D4E-4EE68527564E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AD9E59-ED31-46CD-8E1E-773D45BFB16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AD9E59-ED31-46CD-8E1E-773D45BFB16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E37061-F459-487C-B14B-7F8177DC2CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E37061-F459-487C-B14B-7F8177DC2CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5ED5EE-AB99-4CE4-A689-48098D87BC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5ED5EE-AB99-4CE4-A689-48098D87BC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97FC8BEC-3350-430F-9514-89685A408449}
+	EndGlobalSection
+EndGlobal

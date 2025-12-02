@@ -1,0 +1,6 @@
+﻿📥 Loading STT model (Yehor/w2v-bert-uk-v2.1)...                     
+🎤 Recording... Please speak into the microphone.                
+✅ Recording finished.                                                          
+⚙️  Processing audio...            
+📝 Transcription: які сьогодні день чи подають м'ясо скільки коштує
+❓ Detected questions from speech: ['Які сьогодні день?', "Чи подають м'ясо?", 'Скільки коштує?'] 

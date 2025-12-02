@@ -1,0 +1,68 @@
+# Visual Studio specific
+.vs/
+*.user
+*.suo
+*.cache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+TestResults/
+*.ilk
+*.pdb
+*.exp
+*.idb
+*.tlog
+*.log
+*.lastbuildstate
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+.nuget/
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.mypy_cache/
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Python packaging
+dist/
+build/
+.eggs/
+*.egg-info/
+MANIFEST
+
+# OS specific
+Thumbs.db
+ehthumbs.db
+.DS_Store
+*.swp
+*.swo
+
+# WAV file
+*.wav
+
+# PT models
+*.pt
